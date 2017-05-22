@@ -174,10 +174,10 @@
     <!-- SCRIPTS -->
 
     <!--Google Maps-->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOTSLbgwe421N1w3900g50p3RcV-kQNEQ&callback=init_Map" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOTSLbgwe421N1w3900g50p3RcV-kQNEQ&callback=initMap" type="text/javascript"></script>
 
     <script>
-        function init_map() {
+        function initMap() {
             var var_location = new google.maps.LatLng(50.371706, 3.519665);
 
             var var_mapoptions = {
@@ -198,7 +198,7 @@
 
         }
 
-        google.maps.event.addDomListener(window, 'load', init_map);
+        google.maps.event.addDomListener(window, 'load', initMap);
 
     </script>
 
