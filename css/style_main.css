@@ -82,6 +82,11 @@ article {
     max-height: 350px;
 }
 
+.bg-img5 {
+    height: 20vh;
+    background-image: url(../img/background/screw-1924173-min.jpg);
+}
+
 .bg-img4 {
     height: 66vh;
     background-image: url("http://lorempixel.com/g/1920/1280/technics");
@@ -96,7 +101,8 @@ article {
 .bg-img1,
 .bg-img2,
 .bg-img3,
-.bg-img4 {
+.bg-img4,
+.bg-img5 {
     display: block;
     position: relative;
     opacity: 1;
